@@ -1,3 +1,11 @@
+import { Header } from '../../components/Header';
+import { SummaryDashboard } from '../../components/SummuryDashboard';
+
 export function Dashboard() {
-  return <h1>Dashboard</h1>;
+  return (
+    <>
+      <Header />
+      <SummaryDashboard />
+    </>
+  );
 }

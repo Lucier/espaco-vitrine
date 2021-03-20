@@ -1,3 +1,10 @@
+import { Header } from '../../components/Header';
+
 export function Category() {
-  return <h1>Category</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Category</h1>
+    </>
+  );
 }
